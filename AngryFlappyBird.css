@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #70c5ce, #ffffff);
+    position: relative;
+}
+
+canvas {
+    border: 10px solid #000;
+    background: url('https://i.postimg.cc/qNfJ39vS/background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#startDialog, #gameOverDialog {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+#retryButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
